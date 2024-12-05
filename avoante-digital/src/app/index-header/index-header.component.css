@@ -1,0 +1,103 @@
+.FirstContentDivLogo {
+  align-self: center; /* Centraliza verticalmente */
+  justify-self: start; /* Garantia de alinhamento para cada coluna */
+}
+
+.Logo {
+  height: 3rem;
+}
+
+.FirstContent {
+  background-image: url('../../../public/Bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+nav {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* Limita a largura */
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza filhos horizontalmente */
+  justify-content: center; /* Centraliza filhos verticalmente */
+}
+
+nav ul {
+  display: flex;
+  place-content: center;
+  gap: 1rem;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  display: block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  color: #FFF;
+  background-color: #004aad;
+}
+
+nav div {
+  display: grid;
+  place-content: center;
+}
+
+.FirstContentDivWhatsappButton {
+  align-self: center;
+  justify-self: end;
+}
+
+.WhatsappButton {
+  display: block;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #FFF;
+  background-color: #004aad;
+}
+
+/**/
+
+.MainDescriptionContent {
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: space-evenly;
+  justify-content: space-between;
+  
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza filhos horizontalmente */
+  justify-content: center; /* Centraliza filhos verticalmente */
+}
+
+.MainDescriptionContent div {
+  display: grid;
+  place-content: center;
+}
+
+.MainTitleContent h1 {
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.MainTitleContent h1 span {
+  color: #004aad;
+}
+
+.MainTitleContent p span {
+  font-weight: bold;
+  color: #004aad;
+}

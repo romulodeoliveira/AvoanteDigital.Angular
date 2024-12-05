@@ -1,0 +1,16 @@
+footer {
+  all: unset; /* Remove todos os estilos herdados e aplicados */
+  display: block; /* Redefine o comportamento padrão do footer como bloco */
+}
+
+footer {
+  background-color: #16181C;
+  color: white;
+  padding: 1rem;
+  align-items: center; /* Centraliza filhos horizontalmente */
+  justify-content: center; /* Centraliza filhos verticalmente */
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.Advantages {
+  background-color: #E7F0FF;
+}
+
+.AdvantagesSection {
+  background-color: #1A202C;
+  color: white;
+  border-radius: 1rem 1rem 0rem 0;
+  padding: 4rem 0 4rem 0;
+}
+
+.AdvantagesSection div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem de linha */
+  gap: 2rem; /* Espaçamento entre os itens */
+  justify-content: center; /* Centraliza os itens na linha */
+}
+
+.AdvantagesSection div > * {
+  flex: 1 1 calc(50% - 2rem); /* Cada item ocupa 50% do espaço menos o gap */
+  max-width: calc(50% - 2rem); /* Garante que os itens não excedam 50% */
+}
+
+.AdvantagesSection div div {
+  display: grid;
+  background-color: #232934;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.AdvantagesSection div div:hover {
+  background-color: #2C313D;
+}
+
+.AdvantagesSection div div p {
+  max-width: 100%;
+}

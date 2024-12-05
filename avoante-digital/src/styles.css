@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+/* Reset básico de todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, a, label {
+  font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Poppins;
+}
+
+/* Remove a estilização de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset dos elementos de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset da formatação de tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Remove a formatação dos campos de formulário */
+input,
+button,
+select,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Reset de fontes padrão */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Limpar o background padrão de elementos */
+html, body {
+  height: 100%;
+  background: none;
+}

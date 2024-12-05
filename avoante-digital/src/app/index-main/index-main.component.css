@@ -1,0 +1,53 @@
+main {
+  border-top: .8rem;
+  background-color: #E7F0FF;
+}
+
+.ContactSection {
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza filhos horizontalmente */
+  justify-content: center; /* Centraliza filhos verticalmente */
+
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.MainSectionOne {
+  align-self: center; /* Centraliza verticalmente */
+  justify-self: start; /* Garantia de alinhamento para cada coluna */
+}
+
+.MainSectionOne h1 {
+  font-weight: bold;
+}
+
+.MainSectionOne h1 span {
+  color: #004aad;
+}
+
+.MainSectionTwo {
+  align-self: center;
+  justify-self: end; 
+  background-color: #F5F8FF;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+}
+
+main section {
+  width: 80%;
+}
+
+main section section div ul {
+  padding: 0;
+}
+
+main section section div ul li {
+  background-image: url('../../../public/ListIcon.svg');
+  background-size: 1rem; /* Ajuste o tamanho do ícone */
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2rem; /* Espaçamento para evitar sobreposição de texto */
+}
